@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin: 20px auto;
+  width: 300px;
+}
+
+.card {
+  background-color: #007bff;
+  color: white;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.card.flipped {
+  background-color: #fff;
+  color: black;
+  cursor: default;
+}
+
+.card span {
+  user-select: none;
+}
