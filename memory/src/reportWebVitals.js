@@ -1,7 +1,12 @@
-import { reportWebVitals } from 'web-vitals';
+
+
+import { reportWebVitals as webVitals } from 'web-vitals';
 
 const reportWebVitals = (metric) => {
   console.log(metric);
 };
 
-export default reportWebVitals;
+// Use webVitals instead of reportWebVitals if needed
+webVitals((metric) => {
+  console.log(metric);
+});
