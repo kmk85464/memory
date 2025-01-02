@@ -1,3 +1,4 @@
+/*
 import { reportWebVitals } from 'web-vitals';
 
 const reportWebVitals = (metric) => {
@@ -5,3 +6,4 @@ const reportWebVitals = (metric) => {
 };
 
 export default reportWebVitals;
+*/
